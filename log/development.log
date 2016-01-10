@@ -24800,3 +24800,62 @@ You can opt into the new behavior and remove this warning by setting:
   config.active_record.raise_in_transactional_callbacks = true
 
  (called from <class:User> at /Users/ryohei/git-repos/tech_camp/projects/mooovi/app/models/user.rb:7)
+
+
+Started GET "/notes" for ::1 at 2016-01-10 18:10:19 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by NotesController#index as HTML
+  [1m[35mNote Load (0.5ms)[0m  SELECT `notes`.* FROM `notes`
+  Rendered notes/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 617ms (Views: 565.0ms | ActiveRecord: 24.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/scaffolds.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/notes.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/bootstrap.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/notes.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/ranking.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/review_site.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/reviews.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/users.css?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/ranking.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/reviews.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/users.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2016-01-10 18:10:21 +0900

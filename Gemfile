@@ -55,3 +55,8 @@ gem 'devise'
 
 # upload image
 gem 'paperclip'
+
+# heroku
+group :production, :staging do
+	gem 'rails_12factor'
+end
