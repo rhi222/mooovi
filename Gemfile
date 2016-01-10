@@ -52,3 +52,6 @@ gem 'mechanize'
 
 # devise.
 gem 'devise'
+
+# upload image
+gem 'paperclip'
